@@ -20,7 +20,7 @@ namespace GradeBook.GradeBooks
                 return;
             }
             else
-                base.CalculateStatistics()
+                base.CalculateStatistics();
         }
 
         public override void CalculateStudentStatistics(string name)
